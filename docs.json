@@ -2,6 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "WestPaq Project Execution Repository",
+  "colors": {
+    "primary": "#374151"
+  },
   "logo": {
     "light": "/logo/westpaq-logo-horizontal-light.png",
     "dark": "/logo/westpaq-logo-horizontal-dark.png"
