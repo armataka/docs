@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "WestPaq Project Execution Repository",
   "favicon": "/logo/westpaq-favicon-512.png",
   "navigation": {
