@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "WestPaq Project Execution Repository",
+  "logo": {
+    "light": "/logo/westpaq-logo-horizontal-light.png",
+    "dark": "/logo/westpaq-logo-horizontal-dark.png"
+  },
+  "favicon": "/logo/westpaq-favicon-512.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": ["index"]
+      },
+      {
+        "group": "Service Line Modules",
+        "pages": [
+          "service-lines/engineering-and-design",
+          "service-lines/installations",
+          "service-lines/inspections",
+          "service-lines/maintenance"
+        ]
+      },
+      {
+        "group": "Archive",
+        "pages": ["past-project-records"]
+      }
+    ]
+  }
+}
