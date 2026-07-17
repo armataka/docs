@@ -1,0 +1,346 @@
+---
+title: "Engineering and Design"
+description: "Surface engineering across process, mechanical, piping, electrical, civil and structural disciplines."
+---
+
+Covers surface engineering across multiple disciplines: process technology, HSE design, mechanical, piping, control systems, electrical, pipeline, civil, structural, and architectural.
+
+---
+
+## Sub-Modules
+
+- Technology Consultation and Design Incubation
+- Conceptual Engineering Studies
+- Independent Design Reviews
+- Front-End Engineering and Design (FEED)
+- Detailed Engineering Design (DED)
+- Energy Transition Licensed Technology
+- Advanced Process Modeling
+- Advanced Modularization
+- Value Engineering
+- Engineering Management
+- Construction-Driven Execution
+
+---
+
+## Discipline Breakdown
+
+- Process Engineering
+- Instrument and Control Engineering
+- Electrical Engineering
+- Piping Engineering
+- Civil / Structural Engineering
+- Technical Safety
+- Mechanical and Materials Engineering
+- Architectural
+- Pipeline Engineering
+
+---
+
+## 📄 Processes and Procedures
+
+### Design and Development
+
+**1. Conceptual Design Procedure**
+
+- Define project objectives and constraints
+- Develop design philosophy document
+- Perform option screening and selection (trade-off matrix)
+- Develop block flow diagrams and preliminary layouts
+- Produce conceptual design report with cost estimate (Class V, accuracy ±50%)
+- Gate review and approval to proceed to FEED
+
+**2. Feasibility Study and Option Selection**
+
+- Define evaluation criteria (technical, economic, HSE, schedule, Nigerian content)
+- Develop options for comparative assessment
+- Perform CAPEX/OPEX screening estimates per option
+- Multi-criteria decision analysis (weighted scoring)
+- Document selected option with justification
+- Submit feasibility report for management approval
+
+**3. Front-End Engineering Design (FEED) Procedure**
+
+- Develop design basis memorandum
+- Process simulation and heat/mass balance finalisation
+- Develop P&IDs, PFDs, equipment datasheets
+- Prepare preliminary plot plans and general arrangements
+- Perform HAZID and HAZOP studies
+- Develop Class III cost estimate (accuracy ±20%)
+- Produce FEED deliverable register and schedule
+- FEED close-out report and design freeze
+
+**4. Detailed Engineering Design (DED) Procedure**
+
+- Finalise all discipline deliverables from FEED
+- Issue approved-for-construction (AFC) drawings
+- Develop material take-offs (MTOs) and BOMs
+- 3D model review (30%, 60%, 90% milestones)
+- Interdisciplinary check (IDC) procedure
+- Produce Class II cost estimate (accuracy ±10%)
+- Engineering close-out and handover to construction
+
+**5. Design Basis Preparation**
+
+- Gather client requirements and basis of design data
+- Define meteorological and oceanographic data (metocean)
+- Define process design parameters (flow rates, pressures, temperatures)
+- Define site conditions and geotechnical data
+- Define applicable codes, standards, and specifications
+- Issue design basis document for client approval
+
+**6. Engineering Calculations Procedure**
+
+- Define calculation methodology and software to be used
+- Prepare calculation using approved template
+- Independent check by qualified engineer (checker different from originator)
+- Approval by discipline lead
+- File in document management system with revision tracking
+
+**7. Design Verification and Validation**
+
+- Independent design review at each project phase gate
+- Interdisciplinary checks at 30%, 60%, 90% design completion
+- Model reviews with client participation
+- Design audit against codes and project specifications
+- Validation against design basis and client requirements
+- Close-out of all review comments with action tracking
+
+**8. Design Reviews (HAZID, HAZOP, SIL)**
+
+- HAZID: conducted during conceptual/FEED phase using guidewords. Output: HAZID action register
+- HAZOP: conducted during detailed design, deviation-based review of P&IDs. Output: HAZOP action register with SIL recommendations
+- SIL Assessment: classification of safety instrumented functions per IEC 61508/61511. Output: SIL allocation table
+- Bow-tie analysis for major accident hazards where required
+
+**9. 3D Modeling and CAD Standards**
+
+- 3D model setup using PDMS/E3D or equivalent
+- Discipline-specific modelling rules and catalogue setup
+- Clash detection and resolution (automated + manual)
+- Model review milestones (30%, 60%, 90%)
+- Extraction of isometrics, GAs, and MTOs from model
+- Model handover to client/operations
+
+**10. Value Engineering Procedure**
+
+- Identify VE opportunities at each design phase
+- Function analysis (what does it do, what does it cost, what else could do it)
+- Workshop format with multi-discipline participation
+- Document VE proposals with cost/schedule/risk impact
+- Track implementation of accepted VE items
+
+---
+
+## 📝 Equations and Calculation Templates
+
+### Process Engineering
+
+| Calculation | Method | Standard |
+| --- | --- | --- |
+| Relief valve sizing | API 520 orifice area method for vapour and liquid | API 520/521 |
+| Pump hydraulic power | P = (Q x dP) / efficiency | HI Standards |
+| Heat exchanger duty | Q = m x Cp x dT; LMTD method for sizing | TEMA, ASME |
+| Line sizing | Velocity criteria per API 14E; Darcy-Weisbach pressure drop | API 14E |
+| Flare radiation | Flare stack height and thermal radiation contours | API 521 |
+| Separator sizing | Droplet settling velocity (Stokes Law); retention time method | API 12J |
+
+### Electrical Engineering
+
+| Calculation | Method | Standard |
+| --- | --- | --- |
+| Electrical load study | Tabulation of all loads by area, voltage, running/starting kW | IEC 61400 |
+| Short circuit analysis | Isc = V / Z_total | IEC 60909 |
+| Cable sizing | Current capacity per IEC 60364; voltage drop limit 5% | IEC 60364 |
+| Earthing/grounding | Touch and step potential; ground resistance calculation | IEEE 80 |
+| Area classification | Zone 0, 1, 2 for gas per IEC 60079-10 | IEC 60079 |
+
+### Structural / Civil Engineering
+
+| Calculation | Method | Standard |
+| --- | --- | --- |
+| Steel design | Unity check: actual/allowable stress; combined loading | AISC 360, API RP 2A |
+| Foundation design | Bearing capacity (Terzaghi method) | API RP 2A, Eurocode 7 |
+| Wind load | F = q x Cd x A; gust factor method | ASCE 7, API RP 2A |
+| Seismic analysis | Response spectrum or equivalent static method | API RP 2A, IBC |
+
+### Piping Engineering
+
+| Calculation | Method | Standard |
+| --- | --- | --- |
+| Pipe wall thickness | t = PD / (2SE + 2YP) + corrosion allowance | ASME B31.3 |
+| Pipe stress analysis | CAESAR II: sustained, expansion, occasional loads | ASME B31.3 |
+| Support spacing | Allowable sag and natural frequency criteria | ASME B31.3 |
+| Flange rating | Pressure-temperature rating tables | ASME B16.5 |
+
+### Instrument and Control
+
+| Calculation | Method | Standard |
+| --- | --- | --- |
+| Control valve Cv | Cv = Q x sqrt(SG / dP); ISA sizing equations | ISA 75.01, IEC 60534 |
+| Orifice plate sizing | ISO 5167 discharge coefficient method | ISO 5167 |
+| SIL verification | PFDavg calculation for SIF vs target SIL | IEC 61508/61511 |
+| Loop power budget | V_supply >= V_transmitter + (I x R_cable) + V_barrier | ISA standards |
+
+---
+
+## 📁 Document Templates
+
+### Specification Templates
+
+- Process Design Specification
+- Instrument Specification (transmitters, control valves, analysers)
+- Electrical Specification (switchgear, transformers, cables, lighting)
+- Piping Material Specification (PMS) / Piping Class
+- Structural Steel Specification
+- Painting and Coating Specification
+- Insulation Specification
+- Civil Works Specification
+- Mechanical Equipment Specification (pumps, compressors, vessels)
+
+### Report Templates
+
+- Design Basis Memorandum
+- Calculation Report (cover page, methodology, results, conclusions)
+- HAZID Report
+- HAZOP Report
+- SIL Assessment Report
+- Technical Query (TQ) form
+- Engineering Change Notice (ECN)
+- Interdisciplinary Check (IDC) form
+- Monthly Engineering Progress Report
+- FEED Close-Out Report
+- Engineering Man-Hours Estimate
+
+### Drawing Templates
+
+- Title Block (standard WPQ format with logo, revision table, approval block)
+- Drawing Register template
+- PFD template
+- P&ID template (ISA 5.1 symbology)
+- General Arrangement drawing template
+- Single Line Diagram template
+- Plot Plan template
+- Isometric drawing template
+
+### Data Templates
+
+- Equipment Datasheet (vessel, pump, compressor, heat exchanger)
+- Instrument Datasheet
+- Electrical Load List
+- Cable Schedule
+- Piping Line List
+- Tie-In List
+- Valve List
+- Material Take-Off (MTO) template
+- Bill of Materials (BOM) template
+- Weight Control Report template
+
+---
+
+## 📖 Applicable Codes and Standards
+
+### By Discipline
+
+**Process:** API 14E, API 520/521, API 12J, ASME B31.3, TEMA, GPSA Data Book
+
+**Electrical:** IEC 60079 series, IEC 61508/61511, IEC 60909, IEEE 80, IEC 60364, NFPA 70
+
+**Structural/Civil:** API RP 2A, AISC 360, ACI 318, Eurocode 3/7, ASCE 7
+
+**Piping:** ASME B31.3, B31.4, B31.8, B16.5, B16.47
+
+**Instrumentation:** ISA 5.1, ISA 75.01, ISO 5167, IEC 61508/61511, IEC 60534
+
+**Mechanical:** ASME Section VIII Div 1/2, API 610, API 617, API 618, API 650
+
+---
+
+## 💻 Software Tools
+
+| Software | Discipline | Purpose |
+| --- | --- | --- |
+| AutoCAD | All | 2D drafting and drawing production |
+| PDMS / AVEVA E3D | All | 3D plant design and modelling |
+| Aspen HYSYS | Process | Process simulation (steady state and dynamic) |
+| Aspen Plus | Process | Process simulation (chemical) |
+| HTRI Xchanger Suite | Process | Heat exchanger design and rating |
+| CAESAR II | Piping | Pipe stress analysis |
+| PIPENET | Process/Piping | Hydraulic network analysis, firewater |
+| Flaresim | Process | Flare radiation analysis |
+| [STAAD.Pro](http://STAAD.Pro) | Structural | Structural analysis and design |
+| SACS | Structural | Offshore structural analysis |
+| ETAP | Electrical | Power systems analysis |
+| SmartPlant Instrumentation | Instrument | Instrument design and management |
+| Primavera P6 | Planning | Project scheduling and resource loading |
+| MS Project | Planning | Project scheduling (smaller projects) |
+| PHAST / SAFETI | HSE | Consequence modelling and QRA |
+| MathCAD / Excel | All | Engineering calculations |
+| Navisworks | All | 3D model review and clash detection |
+
+---
+
+## ✅ Certifications and Regulatory Requirements
+
+- **DPR/NUPRC:** Engineering design permits for upstream facilities
+- **NCDMB / NOGIC Act:** Nigerian content requirements for personnel and scope
+- **ISO 9001:** Quality Management System
+- **COREN:** Council for Regulation of Engineering in Nigeria
+- **NSE:** Nigerian Society of Engineers
+- **ISO 14001:** Environmental management
+- **ISO 45001:** Occupational health and safety
+
+---
+
+## 📦 Required Project Documents
+
+### Conceptual Phase
+
+- Design Philosophy
+- Process Flow Diagrams (PFDs)
+- Preliminary Equipment List
+- Preliminary Plot Plan
+- HAZID Report
+- Class V Cost Estimate
+- Conceptual Design Report
+
+### FEED Phase
+
+- Design Basis Memorandum
+- P&IDs
+- Equipment Datasheets
+- General Arrangements
+- HAZOP Report and Action Close-Out
+- SIL Assessment Report
+- Piping Material Specification
+- Area Classification Drawings
+- Instrument I/O List
+- Class III Cost Estimate
+- FEED Design Report
+- Project Execution Plan
+
+### Detailed Design Phase
+
+- All AFC Drawings (per discipline)
+- Material Take-Offs / BOMs
+- Vendor Data Requirements
+- Construction Work Packs
+- 3D Model
+- Technical Specifications for Procurement
+- Class II Cost Estimate
+- Engineering Close-Out Report
+
+---
+
+## 📂 Past Project Records
+
+> See the full searchable archive: [Past Project Records](/past-project-records)
+
+*Records from completed engineering projects including:*
+
+- Project summary (scope, client, location, value, duration)
+- Key deliverables list
+- Lessons learned register
+- Man-hours expended vs estimated
+- Technical challenges and solutions
+- Client feedback
