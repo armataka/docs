@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "maple",
   "name": "WPQ Project Execution Repository",
   "colors": {
     "primary": "#374151",
