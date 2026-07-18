@@ -6,8 +6,8 @@
     "primary": "#ff0000"
   },
   "logo": {
-    "light": "/logo/westpaq-logo-horizontal-light.png",
-    "dark": "/logo/westpaq-logo-horizontal-dark.png"
+    "light": "/logo/westpaq-btm-logo.png",
+    "dark": "/logo/westpaq-btm-logo.png"
   },
   "favicon": "/logo/westpaq-favicon-512.png",
   "navigation": {
